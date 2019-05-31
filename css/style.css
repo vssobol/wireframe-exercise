@@ -47,7 +47,7 @@ nav ul li:hover{
     margin-bottom: 1.5em;
 }
 
-#hero img, #sub img, #featured img:hover{
+header img, #hero img, #sub img, #featured img:hover{
     cursor: pointer;
 }
 
@@ -91,4 +91,20 @@ nav ul li:hover{
 #container button:hover{
     background-color: white;
     color: black;
+}
+
+footer{
+    margin-top: 1.5em;
+    height: 5em;
+    background-color: #444;
+    color: #808080;
+    text-align: right;
+    line-height: 500%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+}
+
+footer p{
+    opacity: .15;
 }
