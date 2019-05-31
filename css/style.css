@@ -9,8 +9,8 @@ body header{
 
 header img{
     float: left;
-    margin-left: 15%;
-    margin-right: 5em;
+    margin-left: 25%;
+    margin-right: 2em;
 }
 
 nav ul li{
@@ -19,10 +19,34 @@ nav ul li{
     font-size: 1.25em;
     font-weight: bold;
     line-height: 350%;
-    margin-left: 5%;
+    margin-left: 2em;
 }
 
 nav ul li:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+
+#hero img{
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sub img:first-child{
+    margin-left: 25%;
+}
+
+#sub img:nth-child(2), #sub img:nth-child(3){
+    margin-left: 1.5em; 
+}
+
+#sub img{
+    margin-bottom: 1.5em;
+}
+
+#hero img,#sub img:hover{
+    cursor: pointer;
 }
