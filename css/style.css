@@ -47,6 +47,48 @@ nav ul li:hover{
     margin-bottom: 1.5em;
 }
 
-#hero img,#sub img:hover{
+#hero img, #sub img, #featured img:hover{
     cursor: pointer;
+}
+
+#featured img{
+    float: left;
+    margin-left: 25%;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#featured #container{
+    width: 28.3em;
+    height: 25em;
+    overflow-y: scroll;
+}
+
+#featured #container h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#featured #container p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: justify;
+    padding-right: 1em;
+    margin-bottom: 1.5em;
+}
+
+#container button{
+    transition-duration: 350ms;
+    border-radius: .5em;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 10em;
+    height: 2em;
+}
+
+#container button:hover{
+    background-color: white;
+    color: black;
 }
